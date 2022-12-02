@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+   }
+
+   .body {
+
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: 'Italiana', serif;    
+
+   }
+
+   .quote {
+
+      height: 20px;
+   }
+  
+   .container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .bio {
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    margin-top: 300px;
+    margin-bottom: 330px;
+
+
+
+   }
+   .bio h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .navbar-brand {
+      margin-left: 15px;
+   }
+
+   .feedback {
+
+    margin-top: 50px;
+    height: 100vh;
+   }
+   .feedback h3 {
+
+    color: white;
+    color: rgba(255,255,255,.3);
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+   }
+
+   .footer {
+
+    margin-top: 70px;
+   }
+
+   .quoteButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -300px;
+    margin-bottom: 300px;
+    color: white;
+    text-decoration: none;
+
+
+    }
+
+  .quoteButton a {
+
+    text-decoration: none;
+    color: white;
+  }
+
+ 
+  .quoteButton a:hover {
+
+    text-decoration: none;
+    color: black;
+  }
+
+
+.nathanPic {
+
+  border-radius: 8px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  
+
+  box-shadow: 3px 7px 56px 25px rgba(250,250,250,0.81);
+  -webkit-box-shadow: 3px 7px 56px 25px rgba(250,250,250,0.81);
+  -moz-box-shadow: 3px 7px 56px 25px rgba(250,250,250,0.81);
+  
+
+}
+.description {
+
+  margin-top: 80px;
+  text-align: center;
+
+  color: rgba(255,255,255,.3);
+  text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+
+
+}
+.title {
+  
+  height: 100vh;
+  margin-top: 40px;
+  margin-bottom: 50px;
+
+  color: rgba(255,255,255,.3);
+text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+  
+@media only screen and (max-width: 600px) { 
+
+  .nathanPic {
+    height: 500px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 3px 7px 56px 25px rgba(250,250,250,0.81);
+    -webkit-box-shadow: 3px 7px 56px 25px rgba(250,250,250,0.81);
+    -moz-box-shadow: 3px 7px 56px 25px rgba(250,250,250,0.81);
+  }
+}
