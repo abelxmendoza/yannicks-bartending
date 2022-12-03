@@ -24,6 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 400px;
    }
 
    .bio {
@@ -52,7 +53,7 @@
 
    .feedback {
 
-    margin-top: 50px;
+    margin-top: 70px;
     height: 100vh;
    }
    .feedback h3 {
@@ -86,6 +87,24 @@
     color: white;
   }
 
+  .tipButton {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tipButton a {
+
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .tipButton:hover {
+    color:black;
+  }
+  .tipButton a:hover {
+    color: black;
+  }
  
   .quoteButton a:hover {
 
