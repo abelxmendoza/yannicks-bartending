@@ -59,6 +59,8 @@
    .feedback h3 {
 
     color: white;
+    font-weight: bolder;
+
     color: rgba(255,255,255,.3);
     text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
    }
@@ -90,10 +92,13 @@
   .tipButton {
     padding: 20px;
     margin-bottom: 20px;
+    font-weight: bold;
   }
 
   .tipButton a {
 
+    
+    font-weight: bold;
     text-decoration: none;
     color: white;
 
